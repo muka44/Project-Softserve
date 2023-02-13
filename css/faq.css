@@ -1,0 +1,81 @@
+/* Тут будуть стилі до блоку 10 */
+.faq__wrapper {
+    background-image: url("../img/background_black.png");
+}
+
+.faq {
+    padding: 90px 0 90px 0;
+}
+
+.faq__body_main {
+    padding: 0 24px;
+}
+
+.faq__container {
+    font-size: 34px;
+    font-family: var(--font-family-header);
+    line-height: 1.7rem;
+}
+
+.faq__header {
+    color: white;
+    display: flex;
+    margin-top: 50px;
+    padding: 0 15px 0 15px;
+    flex-direction: column;
+    align-items: center;
+}
+
+.subtitle-text {
+    color: #ffffff;
+    font-family: var(--font-family-paragraph);
+    font-size: 18px;
+
+}
+
+.faq__main {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    /*padding: 0 24px;*/
+}
+
+.faq__card_item {
+    padding: 31px 27px 31px 27px;
+}
+
+.faq__main-text {
+    color: #ffffff;
+    text-align: left;
+    font-size: 22px;
+    font-family: var(--font-family-header);
+
+}
+
+.faq__text {
+    color: #c5c5c5;
+    margin-top: 20px;
+    font-family: var(--font-family-paragraph);
+    font-size: 16px;
+    line-height: 1.7rem;
+}
+
+.faq__card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0 15px 0 15px;
+    margin-top: 50px;
+}
+@media (min-width: 768px) {
+    .faq{
+        padding:105px 0 100px;
+    }
+    .faq__body_main {
+        padding: 0 32px;
+    }
+    .faq__header{
+        max-width: 50%;
+        text-align: center;
+    }
+}
